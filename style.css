@@ -1,0 +1,17 @@
+footer{
+    background-color: #F4F3EE;
+}
+
+footer p{
+    color: #8A817C;
+}
+
+nav{
+    background-color: #463F3A;
+    font-family: 'Unbounded', cursive;
+    color: white;
+}
+
+nav span span{
+    color: #BCB8B1;
+}
