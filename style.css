@@ -1,9 +1,11 @@
 footer{
     background-color: #F4F3EE;
+    margin-bottom: 0;
 }
 
 footer p{
     color: #8A817C;
+    margin-bottom: 0;
 }
 
 nav{
@@ -20,11 +22,30 @@ nav span span{
     margin: 2px;
  }
 
- .bdr{
-    border: solid #463F3A 5px;
+ .calc{
+    background-color: #463F3A;
+    font-family: 'Unbounded', cursive;
+    color: white;
+    text-align: center;
  }
 
- table{
-    border-collapse: separate; /* set border-collapse property to separate */
-    border-spacing: 10px;
+ .txt{
+    background-color: #BCB8B1;
+    font-family: 'Unbounded', cursive;
+    color: black;
+    text-align: center;
+ }
+.txt:hover{
+    background-color: #a7a39b;
+}
+ section{
+    margin-bottom: 300px;
+ }
+
+ .brd{
+    border: solid #463F3A 2px;
+    box-sizing: border-box;
+    overflow:auto;
+    height: 220px;
+    border-top-width: 0px;
  }
