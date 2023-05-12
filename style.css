@@ -15,3 +15,16 @@ nav{
 nav span span{
     color: #BCB8B1;
 }
+ td{
+    background-color: #F4F3EE !important;
+    margin: 2px;
+ }
+
+ .bdr{
+    border: solid #463F3A 5px;
+ }
+
+ table{
+    border-collapse: separate; /* set border-collapse property to separate */
+    border-spacing: 10px;
+ }
