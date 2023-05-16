@@ -26,7 +26,7 @@ nav span span{
     background-color: #463F3A;
     font-family: 'Unbounded', cursive;
     color: white;
-    text-align: center;
+    justify-content: center;
  }
 
  .txt{
@@ -44,8 +44,20 @@ nav span span{
 
  .brd{
     border: solid #463F3A 2px;
-    box-sizing: border-box;
-    overflow:auto;
-    height: 220px;
     border-top-width: 0px;
  }
+
+ .anslist1{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+ }
+
+ .anslist{
+   list-style: none;
+   padding: 0;
+   box-sizing: border-box;
+    overflow:auto;
+    height: 162px;
+    margin-bottom: 2px;
+}
