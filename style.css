@@ -38,6 +38,9 @@ nav span span{
 .txt:hover{
     background-color: #a7a39b;
 }
+.txt:active{
+   background-color: #41403d;
+}
  section{
     margin-bottom: 300px;
  }
@@ -58,6 +61,15 @@ nav span span{
    padding: 0;
    box-sizing: border-box;
     overflow:auto;
-    height: 162px;
+    height: 142px;
     margin-bottom: 2px;
+}
+.ot{
+   border: solid #E0AFA0 2px;
+   border-radius: 2px;
+}
+.History{
+   border-top:solid #BCB8B1 1px;
+   border-bottom:solid #BCB8B1 1px;
+   text-align: center;
 }
