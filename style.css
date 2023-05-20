@@ -1,75 +1,80 @@
-footer{
-    background-color: #F4F3EE;
-    margin-bottom: 0;
+/* Navbar Section */
+nav {
+   background-color: #463F3A;
+   font-family: 'Unbounded', cursive;
+   color: white;
 }
 
-footer p{
-    color: #8A817C;
-    margin-bottom: 0;
+nav span span {
+   color: #BCB8B1;
 }
 
-nav{
-    background-color: #463F3A;
-    font-family: 'Unbounded', cursive;
-    color: white;
+/* Left section of calculator */
+
+.calc {
+   background-color: #463F3A;
+   font-family: 'Unbounded', cursive;
+   color: white;
+   justify-content: center;
 }
 
-nav span span{
-    color: #BCB8B1;
+.txt {
+   background-color: #BCB8B1;
+   font-family: 'Unbounded', cursive;
+   color: black;
+   text-align: center;
 }
- td{
-    background-color: #F4F3EE !important;
-    margin: 2px;
- }
 
- .calc{
-    background-color: #463F3A;
-    font-family: 'Unbounded', cursive;
-    color: white;
-    justify-content: center;
- }
-
- .txt{
-    background-color: #BCB8B1;
-    font-family: 'Unbounded', cursive;
-    color: black;
-    text-align: center;
- }
-.txt:hover{
-    background-color: #a7a39b;
+.txt:hover {
+   background-color: #a7a39b;
 }
-.txt:active{
+
+.txt:active {
    background-color: #41403d;
 }
- section{
-    margin-bottom: 300px;
- }
 
- .brd{
-    border: solid #463F3A 2px;
-    border-top-width: 0px;
- }
+/*right section of calculator  */
 
- .anslist1{
-    list-style: none;
-    padding: 0;
-    margin-bottom: 0;
- }
+.brd {
+   border: solid #463F3A 2px;
+   border-top-width: 0px;
+}
 
- .anslist{
+.anslist1 {
+   list-style: none;
+   padding: 0;
+   margin-bottom: 0;
+}
+
+.anslist {
    list-style: none;
    padding: 0;
    box-sizing: border-box;
-    overflow:auto;
-    height: 142px;
-    margin-bottom: 2px;
+   overflow: auto;
+   height: 142px;
+   margin-bottom: 2px;
 }
-.ot{
+
+.ot {
    border: solid #E0AFA0 2px;
    border-radius: 2px;
+   width: 100%;
 }
-.History{
-   border-top:solid #BCB8B1 1px;
-   border-bottom:solid #BCB8B1 1px;
+
+.History {
+   border-top: solid #BCB8B1 1px;
+   border-bottom: solid #BCB8B1 1px;
    text-align: center;
+}
+
+/* Footer Section */
+footer {
+   margin-top: 30px;
+   background-color: #F4F3EE;
+   margin-bottom: 0;
+}
+
+footer p {
+   color: #8A817C;
+   margin-bottom: 0;
 }
