@@ -13,9 +13,9 @@ https://ranjeet-singh-1.github.io/Calculator/
 - Responsive according to different devices
 - Used to do simple calculations like:
   1. Addition
-  - Substraction
-  - Multiplication
-  - Division
+  2. Substraction
+  3. Multiplication
+  4. Division
 - It can provide history of calculations 
 - Cross platform
 
